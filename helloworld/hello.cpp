@@ -3,7 +3,7 @@
 
 QTextStream output(stdout);
 
-QTextStream& operator<<(QTextStream& out, const QStringList sl)
+QTextStream& operator<<(QTextStream& out, const QStringList& sl)
 {
     out << '[';
     bool first = true;
